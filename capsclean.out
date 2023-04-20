@@ -1,0 +1,169 @@
+nohup: ignoring input
+bash: /home/alhussein.jamil/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /home/alhussein.jamil/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /home/alhussein.jamil/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /home/alhussein.jamil/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /home/alhussein.jamil/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /home/alhussein.jamil/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /home/alhussein.jamil/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /home/alhussein.jamil/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /home/alhussein.jamil/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /home/alhussein.jamil/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+INFO:root:Running clean run
+INFO:root:Log directory: /home/alhussein.jamil/ray_results
+INFO:root:True
+INFO:root:Running with CAPS regularization
+2023-04-13 12:06:01,349	WARNING algorithm_config.py:596 -- Cannot create PPOConfig from given `config_dict`! Property enable_eager_tracing not supported.
+2023-04-13 12:06:01,349	WARNING deprecation.py:50 -- DeprecationWarning: `algo = Algorithm(env='cassie-v0', ...)` has been deprecated. Use `algo = AlgorithmConfig().environment('cassie-v0').build()` instead. This will raise an error in the future!
+2023-04-13 12:06:01,349	INFO algorithm_config.py:2888 -- Executing eagerly (framework='tf2'), with eager_tracing=tf2. For production workloads, make sure to set eager_tracing=True  in order to match the speed of tf-static-graph (framework='tf'). For debugging purposes, `eager_tracing=False` is the best choice.
+2023-04-13 12:06:01,356	INFO algorithm.py:506 -- Current log_level is WARN. For more information, set 'log_level': 'INFO' / 'DEBUG' or use the -v and -vv flags.
+2023-04-13 12:06:03,314	INFO worker.py:1544 -- Started a local Ray instance. View the dashboard at [1m[32mhttp://127.0.0.1:8265 [39m[22m
+2023-04-13 12:06:11,529	INFO trainable.py:172 -- Trainable.setup took 10.173 seconds. If your trainable is slow to initialize, consider setting reuse_actors=True to reduce actor creation overheads.
+2023-04-13 12:06:11,529	WARNING deprecation.py:50 -- DeprecationWarning: `algo = Algorithm(env='cassie-v0', ...)` has been deprecated. Use `algo = AlgorithmConfig().environment('cassie-v0').build()` instead. This will raise an error in the future!
+INFO:root:generalised config
+2023-04-13 12:06:35,352	WARNING deprecation.py:50 -- DeprecationWarning: `_get_slice_indices` has been deprecated. This will raise an error in the future!
+2023-04-13 12:16:24,817	ERROR actor_manager.py:496 -- Ray error, taking actor 1 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 2 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 3 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 4 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 5 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 6 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 7 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 8 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 9 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 10 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 11 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 12 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 13 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 14 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 15 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 16 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 17 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 18 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 19 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 20 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 21 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 22 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 23 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 24 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,818	ERROR actor_manager.py:496 -- Ray error, taking actor 25 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,819	ERROR actor_manager.py:496 -- Ray error, taking actor 26 out of service. The actor died unexpectedly before finishing this task.
+	class_name: RolloutWorker
+	actor_id: b5c3e429f2c8d0be984f049401000000
+	pid: 2837001
+	namespace: b3250802-7993-4552-846f-029de6e63fa0
+	ip: 192.168.56.117
+The actor is dead because its owner has died. Owner Id: 01000000ffffffffffffffffffffffffffffffffffffffffffffffff Owner Ip address: 192.168.56.117 Owner worker exit type: SYSTEM_ERROR Worker exit detail: Owner's node has crashed.
+2023-04-13 12:16:24,819	ERROR actor_manager.py:496 -- Ray error, taking actor 27 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,819	ERROR actor_manager.py:496 -- Ray error, taking actor 28 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,819	ERROR actor_manager.py:496 -- Ray error, taking actor 29 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,819	ERROR actor_manager.py:496 -- Ray error, taking actor 30 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,819	ERROR actor_manager.py:496 -- Ray error, taking actor 31 out of service. The actor died unexpectedly before finishing this task.
+2023-04-13 12:16:24,819	ERROR actor_manager.py:496 -- Ray error, taking actor 32 out of service. The actor died unexpectedly before finishing this task.
+*** SIGTERM received at time=1681381315 on cpu 8 ***
+PC: @     0x7febc95933f8  (unknown)  _PyEval_EvalFrameDefault
+    @     0x7febc9323520  (unknown)  (unknown)
+[2023-04-13 12:21:55,855 E 2826456 2826456] logging.cc:361: *** SIGTERM received at time=1681381315 on cpu 8 ***
+[2023-04-13 12:21:55,855 E 2826456 2826456] logging.cc:361: PC: @     0x7febc95933f8  (unknown)  _PyEval_EvalFrameDefault
+[2023-04-13 12:21:55,855 E 2826456 2826456] logging.cc:361:     @     0x7febc9323520  (unknown)  (unknown)
+alhussein.jamil
+{'training': {'gamma': 0.99, 'lr': 0.01, 'train_batch_size': 50000, 'model': {'fcnet_hiddens': [256, 256], 'fcnet_activation': 'swish', 'vf_share_layers': False, 'free_log_std': False}, 'optimizer': {'type': 'adam', 'eps': '1e-08'}, 'use_critic': True, 'use_gae': True, 'lambda_': 0.95, 'kl_coeff': 0.2, 'sgd_minibatch_size': 9000, 'num_sgd_iter': 5, 'vf_loss_coeff': 0.5, 'entropy_coeff': 0.01, 'clip_param': 0.2, 'kl_target': 0.01}, 'environment': {'env': 'cassie-v0', 'clip_actions': True, 'disable_env_checking': True}, 'framework': {'framework': 'tf2', 'enable_eager_tracing': True}, 'rollouts': {'recreate_failed_workers': True, 'num_workers': 32, 'rollout_fragment_length': 'auto', 'batch_mode': 'truncate_episodes', 'observation_filter': 'NoFilter'}, 'evaluation': {'evaluation_interval': 2, 'evaluation_duration': 20}, 'resources': {'num_gpus': 1, 'num_cpus_per_worker': 1}}
+Episode Reward Mean for iteration 1 is 21.79954263051792
+Episode Reward Mean for iteration 2 is 21.850270213504878
+Episode Reward Mean for iteration 3 is 22.57382829975118
+Episode Reward Mean for iteration 4 is 22.950285247898044
+Episode Reward Mean for iteration 5 is 23.50496403455577
+Checkpoint saved at /home/alhussein.jamil/ray_results/PPOCAPSTrainer_cassie-v0_2023-04-13_12-06-11ptjnk2rt/checkpoint_000005
+Episode Reward Mean for iteration 6 is 24.262504232103126
+Episode Reward Mean for iteration 7 is 24.78278533341798
+Episode Reward Mean for iteration 8 is 25.46579607022765
+Episode Reward Mean for iteration 9 is 26.068739493199406
+Episode Reward Mean for iteration 10 is 26.820575435951444
+Checkpoint saved at /home/alhussein.jamil/ray_results/PPOCAPSTrainer_cassie-v0_2023-04-13_12-06-11ptjnk2rt/checkpoint_000010
+Test saved at ./sims/test_108/sim_10.mp4
+Episode Reward Mean for iteration 11 is 27.61508670740479
+Episode Reward Mean for iteration 12 is 28.31715540638897
+Episode Reward Mean for iteration 13 is 29.108974300543057
+Episode Reward Mean for iteration 14 is 30.22353533619084
+Episode Reward Mean for iteration 15 is 30.702218937660458
+Checkpoint saved at /home/alhussein.jamil/ray_results/PPOCAPSTrainer_cassie-v0_2023-04-13_12-06-11ptjnk2rt/checkpoint_000015
+Episode Reward Mean for iteration 16 is 32.02675283544612
+Episode Reward Mean for iteration 17 is 33.36014916540562
+Episode Reward Mean for iteration 18 is 34.60395085948418
+Episode Reward Mean for iteration 19 is 35.27253980707599
+Episode Reward Mean for iteration 20 is 36.18595212891525
+Checkpoint saved at /home/alhussein.jamil/ray_results/PPOCAPSTrainer_cassie-v0_2023-04-13_12-06-11ptjnk2rt/checkpoint_000020
+Test saved at ./sims/test_108/sim_20.mp4
+Episode Reward Mean for iteration 21 is 38.06734516365104
+Episode Reward Mean for iteration 22 is 37.878234352443286
+Episode Reward Mean for iteration 23 is 39.23199388363414
+Episode Reward Mean for iteration 24 is 39.79437162038329
+Episode Reward Mean for iteration 25 is 40.08041698807299
+Checkpoint saved at /home/alhussein.jamil/ray_results/PPOCAPSTrainer_cassie-v0_2023-04-13_12-06-11ptjnk2rt/checkpoint_000025
+Episode Reward Mean for iteration 26 is 40.66566356347235
+Episode Reward Mean for iteration 27 is 41.519683390169064
+Episode Reward Mean for iteration 28 is 41.914904809569535
+Episode Reward Mean for iteration 29 is 42.39577665307039
+Episode Reward Mean for iteration 30 is 42.04055253982651
+Checkpoint saved at /home/alhussein.jamil/ray_results/PPOCAPSTrainer_cassie-v0_2023-04-13_12-06-11ptjnk2rt/checkpoint_000030
+Test saved at ./sims/test_108/sim_30.mp4
+Episode Reward Mean for iteration 31 is 42.04055253982651
+Episode Reward Mean for iteration 32 is 42.04055253982651
+Episode Reward Mean for iteration 33 is 42.04055253982651
+Episode Reward Mean for iteration 34 is 42.04055253982651
+Episode Reward Mean for iteration 35 is 42.04055253982651
+Checkpoint saved at /home/alhussein.jamil/ray_results/PPOCAPSTrainer_cassie-v0_2023-04-13_12-06-11ptjnk2rt/checkpoint_000035
+Episode Reward Mean for iteration 36 is 42.04055253982651
+Episode Reward Mean for iteration 37 is 42.04055253982651
+Episode Reward Mean for iteration 38 is 42.04055253982651
+Episode Reward Mean for iteration 39 is 42.04055253982651
+Episode Reward Mean for iteration 40 is 42.04055253982651
+Checkpoint saved at /home/alhussein.jamil/ray_results/PPOCAPSTrainer_cassie-v0_2023-04-13_12-06-11ptjnk2rt/checkpoint_000040
+Test saved at ./sims/test_108/sim_40.mp4
+Episode Reward Mean for iteration 41 is 42.04055253982651
+Episode Reward Mean for iteration 42 is 42.04055253982651
+Episode Reward Mean for iteration 43 is 42.04055253982651
+Episode Reward Mean for iteration 44 is 42.04055253982651
+Episode Reward Mean for iteration 45 is 42.04055253982651
+Checkpoint saved at /home/alhussein.jamil/ray_results/PPOCAPSTrainer_cassie-v0_2023-04-13_12-06-11ptjnk2rt/checkpoint_000045
+Episode Reward Mean for iteration 46 is 42.04055253982651
+Episode Reward Mean for iteration 47 is 42.04055253982651
+Episode Reward Mean for iteration 48 is 42.04055253982651
+Episode Reward Mean for iteration 49 is 42.04055253982651
+Episode Reward Mean for iteration 50 is 42.04055253982651
+Checkpoint saved at /home/alhussein.jamil/ray_results/PPOCAPSTrainer_cassie-v0_2023-04-13_12-06-11ptjnk2rt/checkpoint_000050
+Test saved at ./sims/test_108/sim_50.mp4
+Episode Reward Mean for iteration 51 is 42.04055253982651
+Episode Reward Mean for iteration 52 is 42.04055253982651
+Episode Reward Mean for iteration 53 is 42.04055253982651
+Episode Reward Mean for iteration 54 is 42.04055253982651
+Episode Reward Mean for iteration 55 is 42.04055253982651
+Checkpoint saved at /home/alhussein.jamil/ray_results/PPOCAPSTrainer_cassie-v0_2023-04-13_12-06-11ptjnk2rt/checkpoint_000055
+Episode Reward Mean for iteration 56 is 42.04055253982651
+Episode Reward Mean for iteration 57 is 42.04055253982651
+Episode Reward Mean for iteration 58 is 42.04055253982651
+Episode Reward Mean for iteration 59 is 42.04055253982651
+Episode Reward Mean for iteration 60 is 42.04055253982651
+Checkpoint saved at /home/alhussein.jamil/ray_results/PPOCAPSTrainer_cassie-v0_2023-04-13_12-06-11ptjnk2rt/checkpoint_000060
+Test saved at ./sims/test_108/sim_60.mp4
+Episode Reward Mean for iteration 61 is 42.04055253982651
+Episode Reward Mean for iteration 62 is 42.04055253982651
+Episode Reward Mean for iteration 63 is 42.04055253982651
+Episode Reward Mean for iteration 64 is 42.04055253982651
+Episode Reward Mean for iteration 65 is 42.04055253982651
+Checkpoint saved at /home/alhussein.jamil/ray_results/PPOCAPSTrainer_cassie-v0_2023-04-13_12-06-11ptjnk2rt/checkpoint_000065
+Episode Reward Mean for iteration 66 is 42.04055253982651
+Episode Reward Mean for iteration 67 is 42.04055253982651
+Episode Reward Mean for iteration 68 is 42.04055253982651
+Episode Reward Mean for iteration 69 is 42.04055253982651
+Exception ignored in: <function OffScreenViewer.__del__ at 0x7fea3547a9d0>
+Traceback (most recent call last):
+  File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/gymnasium/envs/mujoco/mujoco_rendering.py", line 192, in __del__
+  File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/gymnasium/envs/mujoco/mujoco_rendering.py", line 189, in free
+  File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/mujoco/glfw/__init__.py", line 35, in free
+AttributeError: 'NoneType' object has no attribute 'get_current_context'
+Exception ignored in: <function GLContext.__del__ at 0x7febc2cc2700>
+Traceback (most recent call last):
+  File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/mujoco/glfw/__init__.py", line 41, in __del__
+  File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/mujoco/glfw/__init__.py", line 35, in free
+AttributeError: 'NoneType' object has no attribute 'get_current_context'

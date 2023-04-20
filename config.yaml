@@ -1,0 +1,32 @@
+
+framework: tf2
+eager_tracing: true
+log_level: WARN
+num_gpus: 1
+num_workers: 10
+num_envs_per_worker: 1
+rollout_fragment_length: auto
+train_batch_size: 50000
+sgd_minibatch_size: 9000
+num_sgd_iter: 6
+opt_type : adam
+model:
+  fcnet_activation: swish
+  fcnet_hiddens: [!!int 256,!!int 256]
+  vf_share_layers: false
+  free_log_std: true
+entropy_coeff: 0.01
+gamma: 0.99
+lambda: 0.95
+kl_coeff: 0.5
+clip_param: 0.4
+batch_mode: truncate_episodes
+reuse_actors: true
+disable_env_checking: true
+num_gpus_per_worker: 0.1
+num_cpus_per_worker: 2
+evaluation_interval: 2
+evaluation_num_episodes: 10
+evaluation_config:
+  env: cassie-v0
+  seed: 1234

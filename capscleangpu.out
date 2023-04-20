@@ -1,0 +1,364 @@
+nohup: ignoring input
+bash: /home/alhussein.jamil/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /home/alhussein.jamil/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /home/alhussein.jamil/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /home/alhussein.jamil/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /home/alhussein.jamil/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /home/alhussein.jamil/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /home/alhussein.jamil/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /home/alhussein.jamil/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /home/alhussein.jamil/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+bash: /home/alhussein.jamil/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+INFO:root:Running clean run
+INFO:root:Log directory: /home/alhussein.jamil/ray_results
+INFO:root:True
+INFO:root:Running without CAPS regularization
+2023-04-13 16:54:25,428	WARNING deprecation.py:50 -- DeprecationWarning: `algo = Algorithm(env='cassie-v0', ...)` has been deprecated. Use `algo = AlgorithmConfig().environment('cassie-v0').build()` instead. This will raise an error in the future!
+2023-04-13 16:54:25,428	INFO algorithm_config.py:2888 -- Executing eagerly (framework='tf2'), with eager_tracing=tf2. For production workloads, make sure to set eager_tracing=True  in order to match the speed of tf-static-graph (framework='tf'). For debugging purposes, `eager_tracing=False` is the best choice.
+2023-04-13 16:54:25,435	INFO algorithm.py:506 -- Current log_level is WARN. For more information, set 'log_level': 'INFO' / 'DEBUG' or use the -v and -vv flags.
+2023-04-13 16:54:27,302	INFO worker.py:1544 -- Started a local Ray instance. View the dashboard at [1m[32mhttp://127.0.0.1:8266 [39m[22m
+[2m[36m(RolloutWorker pid=2250950)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250950)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250950)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250950)[0m   <tf.Variable 'default_policy_wk4/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250950)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250950)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250950)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250982)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250982)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250982)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250982)[0m   <tf.Variable 'default_policy_wk25/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250982)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250982)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250982)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250970)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250970)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250970)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250970)[0m   <tf.Variable 'default_policy_wk13/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250970)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250970)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250970)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250957)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250957)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250957)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250957)[0m   <tf.Variable 'default_policy_wk8/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250957)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250957)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250957)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250945)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250945)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250945)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250945)[0m   <tf.Variable 'default_policy_wk2/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250945)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250945)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250945)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250964)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250964)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250964)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250964)[0m   <tf.Variable 'default_policy_wk10/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250964)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250964)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250964)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250986)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250986)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250986)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250986)[0m   <tf.Variable 'default_policy_wk27/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250986)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250986)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250986)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250952)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250952)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250952)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250952)[0m   <tf.Variable 'default_policy_wk5/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250952)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250952)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250952)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250953)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250953)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250953)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250953)[0m   <tf.Variable 'default_policy_wk6/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250953)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250953)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250953)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250979)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250979)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250979)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250979)[0m   <tf.Variable 'default_policy_wk22/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250979)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250979)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250979)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250966)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250966)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250966)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250966)[0m   <tf.Variable 'default_policy_wk11/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250966)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250966)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250966)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250989)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250989)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250989)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250989)[0m   <tf.Variable 'default_policy_wk28/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250989)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250989)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250989)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250978)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250978)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250978)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250978)[0m   <tf.Variable 'default_policy_wk21/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250978)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250978)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250978)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250973)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250973)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250973)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250973)[0m   <tf.Variable 'default_policy_wk16/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250973)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250973)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250973)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250992)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250992)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250992)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250992)[0m   <tf.Variable 'default_policy_wk30/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250992)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250992)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250992)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250981)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250981)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250981)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250981)[0m   <tf.Variable 'default_policy_wk24/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250981)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250981)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250981)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250993)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250993)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250993)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250993)[0m   <tf.Variable 'default_policy_wk31/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250993)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250993)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250993)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250971)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250971)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250971)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250971)[0m   <tf.Variable 'default_policy_wk14/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250971)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250971)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250971)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250977)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250977)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250977)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250977)[0m   <tf.Variable 'default_policy_wk20/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250977)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250977)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250977)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250962)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250962)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250962)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250962)[0m   <tf.Variable 'default_policy_wk9/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250962)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250962)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250962)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250994)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250994)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250994)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250994)[0m   <tf.Variable 'default_policy_wk32/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250994)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250994)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250994)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250947)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250947)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250947)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250947)[0m   <tf.Variable 'default_policy_wk3/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250947)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250947)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250947)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250954)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250954)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250954)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250954)[0m   <tf.Variable 'default_policy_wk7/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250954)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250954)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250954)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250943)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250943)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250943)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250943)[0m   <tf.Variable 'default_policy_wk1/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250943)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250943)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250943)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250976)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250976)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250976)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250976)[0m   <tf.Variable 'default_policy_wk19/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250976)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250976)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250976)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250985)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250985)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250985)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250985)[0m   <tf.Variable 'default_policy_wk26/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250985)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250985)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250985)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250974)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250974)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250974)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250974)[0m   <tf.Variable 'default_policy_wk17/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250974)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250974)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250974)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250991)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250991)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250991)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250991)[0m   <tf.Variable 'default_policy_wk29/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250991)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250991)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250991)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250972)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250972)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250972)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250972)[0m   <tf.Variable 'default_policy_wk15/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250972)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250972)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250972)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250967)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250967)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250967)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250967)[0m   <tf.Variable 'default_policy_wk12/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250967)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250967)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250967)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250980)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250980)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250980)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250980)[0m   <tf.Variable 'default_policy_wk23/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250980)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250980)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250980)[0m formulated as a subclassed Layer rather than a Lambda layer.
+[2m[36m(RolloutWorker pid=2250975)[0m WARNING:tensorflow:
+[2m[36m(RolloutWorker pid=2250975)[0m The following Variables were used a Lambda layer's call (lambda), but
+[2m[36m(RolloutWorker pid=2250975)[0m are not present in its tracked objects:
+[2m[36m(RolloutWorker pid=2250975)[0m   <tf.Variable 'default_policy_wk18/log_std:0' shape=(10,) dtype=float32>
+[2m[36m(RolloutWorker pid=2250975)[0m It is possible that this is intended behavior, but it is more likely
+[2m[36m(RolloutWorker pid=2250975)[0m an omission. This is a strong indication that this layer should be
+[2m[36m(RolloutWorker pid=2250975)[0m formulated as a subclassed Layer rather than a Lambda layer.
+WARNING:tensorflow:
+The following Variables were used a Lambda layer's call (lambda), but
+are not present in its tracked objects:
+  <tf.Variable 'default_policy/log_std:0' shape=(10,) dtype=float32>
+It is possible that this is intended behavior, but it is more likely
+an omission. This is a strong indication that this layer should be
+formulated as a subclassed Layer rather than a Lambda layer.
+WARNING:tensorflow:
+The following Variables were used a Lambda layer's call (lambda), but
+are not present in its tracked objects:
+  <tf.Variable 'default_policy/log_std:0' shape=(10,) dtype=float32>
+It is possible that this is intended behavior, but it is more likely
+an omission. This is a strong indication that this layer should be
+formulated as a subclassed Layer rather than a Lambda layer.
+WARNING:tensorflow:
+The following Variables were used a Lambda layer's call (lambda_1), but
+are not present in its tracked objects:
+  <tf.Variable 'default_policy/log_std:0' shape=(10,) dtype=float32>
+It is possible that this is intended behavior, but it is more likely
+an omission. This is a strong indication that this layer should be
+formulated as a subclassed Layer rather than a Lambda layer.
+WARNING:tensorflow:
+The following Variables were used a Lambda layer's call (lambda_1), but
+are not present in its tracked objects:
+  <tf.Variable 'default_policy/log_std:0' shape=(10,) dtype=float32>
+It is possible that this is intended behavior, but it is more likely
+an omission. This is a strong indication that this layer should be
+formulated as a subclassed Layer rather than a Lambda layer.
+2023-04-13 16:54:36,195	INFO trainable.py:172 -- Trainable.setup took 10.761 seconds. If your trainable is slow to initialize, consider setting reuse_actors=True to reduce actor creation overheads.
+INFO:root:generalised config
+2023-04-13 16:54:56,425	WARNING deprecation.py:50 -- DeprecationWarning: `_get_slice_indices` has been deprecated. This will raise an error in the future!
+2023-04-13 16:54:56,472	WARNING tf_utils.py:576 -- KL divergence is non-finite, this will likely destabilize your model and the training process. Action(s) in a specific state have near-zero probability. This can happen naturally in deterministic environments where the optimal policy has zero mass for a specific action. To fix this issue, consider setting the coefficient for the KL loss term to zero or increasing policy entropy.
+2023-04-13 16:54:56,762	WARNING tf_utils.py:576 -- KL divergence is non-finite, this will likely destabilize your model and the training process. Action(s) in a specific state have near-zero probability. This can happen naturally in deterministic environments where the optimal policy has zero mass for a specific action. To fix this issue, consider setting the coefficient for the KL loss term to zero or increasing policy entropy.
+alhussein.jamil
+{'training': {'gamma': 0.99, 'lr': 0.01, 'train_batch_size': 50000, 'model': {'fcnet_hiddens': [256, 256], 'fcnet_activation': 'swish', 'vf_share_layers': False, 'free_log_std': True}, 'optimizer': {'type': 'adam', 'eps': '1e-06'}, 'use_critic': True, 'use_gae': True, 'lambda_': 0.95, 'kl_coeff': 0.2, 'sgd_minibatch_size': 9000, 'num_sgd_iter': 5, 'vf_loss_coeff': 0.5, 'entropy_coeff': 0.01, 'clip_param': 0.2, 'kl_target': 0.01}, 'environment': {'env': 'cassie-v0', 'clip_actions': True, 'disable_env_checking': True}, 'framework': {'framework': 'tf2', 'eager_tracing': True}, 'rollouts': {'recreate_failed_workers': True, 'num_workers': 32, 'rollout_fragment_length': 'auto', 'batch_mode': 'truncate_episodes', 'observation_filter': 'NoFilter'}, 'evaluation': {'evaluation_interval': 2, 'evaluation_duration': 20}, 'resources': {'num_gpus': 1, 'num_cpus_per_worker': 1}}
+Traceback (most recent call last):
+  File "run.py", line 172, in <module>
+    result = trainer.train()
+  File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/tune/trainable/trainable.py", line 368, in train
+    raise skipped from exception_cause(skipped)
+  File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/tune/trainable/trainable.py", line 365, in train
+    result = self.step()
+  File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/algorithms/algorithm.py", line 782, in step
+    results, train_iter_ctx = self._run_one_training_iteration()
+  File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/algorithms/algorithm.py", line 2713, in _run_one_training_iteration
+    results = self.training_step()
+  File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/algorithms/ppo/ppo.py", line 371, in training_step
+    train_results = train_one_step(self, train_batch)
+  File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/execution/train_ops.py", line 52, in train_one_step
+    info = do_minibatch_sgd(
+  File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/utils/sgd.py", line 129, in do_minibatch_sgd
+    local_worker.learn_on_batch(
+  File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/evaluation/rollout_worker.py", line 1028, in learn_on_batch
+    info_out[pid] = policy.learn_on_batch(batch)
+  File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/policy/eager_tf_policy.py", line 138, in _func
+    return obj(self_, *args, **kwargs)
+  File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/policy/eager_tf_policy.py", line 216, in learn_on_batch
+    return super(TracedEagerPolicy, self).learn_on_batch(samples)
+  File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/utils/threading.py", line 24, in wrapper
+    return func(self, *a, **k)
+  File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/policy/eager_tf_policy_v2.py", line 594, in learn_on_batch
+    stats = self._learn_on_batch_helper(postprocessed_batch)
+  File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/policy/eager_tf_policy.py", line 96, in _func
+    return func(*eager_args, **eager_kwargs)
+  File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/tensorflow/python/util/traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.InternalError: Graph execution error:
+
+Detected at node 'StatefulPartitionedCall_11' defined at (most recent call last):
+    File "run.py", line 172, in <module>
+      result = trainer.train()
+    File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/tune/trainable/trainable.py", line 365, in train
+      result = self.step()
+    File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/algorithms/algorithm.py", line 782, in step
+      results, train_iter_ctx = self._run_one_training_iteration()
+    File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/algorithms/algorithm.py", line 2713, in _run_one_training_iteration
+      results = self.training_step()
+    File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/algorithms/ppo/ppo.py", line 371, in training_step
+      train_results = train_one_step(self, train_batch)
+    File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/execution/train_ops.py", line 52, in train_one_step
+      info = do_minibatch_sgd(
+    File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/utils/sgd.py", line 129, in do_minibatch_sgd
+      local_worker.learn_on_batch(
+    File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/evaluation/rollout_worker.py", line 1028, in learn_on_batch
+      info_out[pid] = policy.learn_on_batch(batch)
+    File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/policy/eager_tf_policy.py", line 138, in _func
+      return obj(self_, *args, **kwargs)
+    File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/policy/eager_tf_policy.py", line 216, in learn_on_batch
+      return super(TracedEagerPolicy, self).learn_on_batch(samples)
+    File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/utils/threading.py", line 24, in wrapper
+      return func(self, *a, **k)
+    File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/policy/eager_tf_policy_v2.py", line 594, in learn_on_batch
+      stats = self._learn_on_batch_helper(postprocessed_batch)
+    File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/policy/eager_tf_policy.py", line 96, in _func
+      return func(*eager_args, **eager_kwargs)
+    File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/policy/eager_tf_policy_v2.py", line 876, in _learn_on_batch_helper
+      self._apply_gradients_helper(grads_and_vars)
+    File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/ray/rllib/policy/eager_tf_policy_v2.py", line 963, in _apply_gradients_helper
+      self._optimizer.apply_gradients(
+    File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/keras/optimizers/optimizer_experimental/optimizer.py", line 1140, in apply_gradients
+      return super().apply_gradients(grads_and_vars, name=name)
+    File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/keras/optimizers/optimizer_experimental/optimizer.py", line 634, in apply_gradients
+      iteration = self._internal_apply_gradients(grads_and_vars)
+    File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/keras/optimizers/optimizer_experimental/optimizer.py", line 1166, in _internal_apply_gradients
+      return tf.__internal__.distribute.interim.maybe_merge_call(
+    File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/keras/optimizers/optimizer_experimental/optimizer.py", line 1216, in _distributed_apply_gradients_fn
+      distribution.extended.update(
+    File "/home/alhussein.jamil/.pyenv/versions/rl_sandbox/lib/python3.8/site-packages/keras/optimizers/optimizer_experimental/optimizer.py", line 1211, in apply_grad_to_update_var
+      return self._update_step_xla(grad, var, id(self._var_key(var)))
+Node: 'StatefulPartitionedCall_11'
+libdevice not found at ./libdevice.10.bc
+	 [[{{node StatefulPartitionedCall_11}}]] [Op:__inference__learn_on_batch_helper_2967]
+*** SIGTERM received at time=1681458479 on cpu 26 ***
+PC: @     0x7f677c12ba3d  (unknown)  syscall
+    @     0x7f677c04f520  (unknown)  (unknown)
+[2023-04-14 09:47:59,544 E 3103873 3104795] logging.cc:361: *** SIGTERM received at time=1681458479 on cpu 26 ***
+[2023-04-14 09:47:59,544 E 3103873 3104795] logging.cc:361: PC: @     0x7f677c12ba3d  (unknown)  syscall
+[2023-04-14 09:47:59,544 E 3103873 3104795] logging.cc:361:     @     0x7f677c04f520  (unknown)  (unknown)
+Terminated
